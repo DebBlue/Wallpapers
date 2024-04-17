@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory containing your wallpapers
-wallpaper_dir="/home/debblue/Pictures/Wallpapers/"
+wallpaper_dir="/home/bluecake/Pictures/Wallpapers/"
 
 # Error handling if directory doesn't exist
 if [ ! -d "$wallpaper_dir" ]; then
@@ -31,6 +31,6 @@ while true; do
   feh --bg-scale "$wallpaper_path"
 
   # Sleep for 30 seconds
-  sleep 30
+  sleep 15
 done
 
